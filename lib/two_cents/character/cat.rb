@@ -1,12 +1,7 @@
 class Cat
 
-  # cat_array = []
-  #
-  # def initialize
-  #   cat_array << self
-  # end
 
-  def cat_1
+  def self.cat_1
     puts "         _,'|             _.-''``-...___..--';)"
     puts "       /_ \'.      __..-' ,      ,--...--'''   "
     puts "      <\    .`--'''       `     /'             "
@@ -15,7 +10,7 @@ class Cat
     puts "    (,__....----'''       (,..--''             "
   end
 
-  def cat_2
+  def self.cat_2
     puts ""
     puts "                      (`.-,') "
     puts "                    .-'     ; "
@@ -27,7 +22,7 @@ class Cat
     puts "  ('_  _,'.'  (___,))         "
   end
 
-  def cat_3
+  def self.cat_3
     puts "                             _  "
     puts "                            | \ "
     puts "                            | | "
@@ -44,7 +39,7 @@ class Cat
     puts "          (_/ (_/       ((_/    "
   end
 
-  def cat_4
+  def self.cat_4
     puts "      \`*-.                     "
     puts "       )  _`-.                  "
     puts "      .  : `. .                 "
@@ -61,7 +56,7 @@ class Cat
     puts "     `*-*   `*-*  `*-*'         "
   end
 
-  def cat_5
+  def self.cat_5
     puts "           ;\                        "
     puts "         _' \_                       "
     puts "       ,' '  '`.                     "
@@ -82,7 +77,7 @@ class Cat
     puts "     ((__/(_____(______,'______(___) "
   end
 
-  def cat_6
+  def self.cat_6
     puts ""
     puts "      \)\_              "
     puts "     /    '. .---._     "
@@ -95,7 +90,7 @@ class Cat
     puts "            '-...-'     "
   end
 
-  def cat_7
+  def self.cat_7
     puts "   |\___/|  "
     puts "   )     (  "
     puts "  =\     /= "
@@ -110,7 +105,7 @@ class Cat
     puts "     (_(    "
   end
 
-  def cat_8
+  def self.cat_8
     puts "    _ _..._  _                               "
     puts "   \)`     (` /                              "
     puts "    /       `\                               "
@@ -124,7 +119,7 @@ class Cat
     puts "      ((,,_/      ((,,___/                   "
   end
 
-  def cat_9
+  def self.cat_9
     puts "                        __ _..._  _   "
     puts "                        \ `)     ` (/ "
     puts "                         /`        \  "
@@ -138,7 +133,7 @@ class Cat
     puts "            \___,,))     \_,,))       "
   end
 
-  def cat_10
+  def self.cat_10
     puts "            .-o=o-.                 "
     puts "        ,  /=o=o=o=\ .--.           "
     puts "       _|\|=o=O=o=O=|    \          "
@@ -149,24 +144,5 @@ class Cat
     puts "       `'-.____;     /'-.___.-'     "
     puts "           `''`                     "
   end
-
-  def self.all_the_cats
-    # cat_array = [method(Cat.cat_1), method(Cat.cat_2), method(Cat.cat_3), method(Cat.cat_4), method(Cat.cat_5), method(Cat.cat_6), method(Cat.cat_7), method(Cat.cat_8), method(Cat.cat_9), method(Cat.cat_10)]
-    cat_array = [cat_1, cat_2, cat_3, cat_4 cat_5, cat_6, cat_7, cat_8, cat_9, cat_10]
-    send cat_array.sample
-    # rando_cat = cat_array[rand(cat_array.size)]
-    # puts rando_cat
-  end
-
-end
-
-#   # Put their names in an array
-# methods = %i[a b c d e]
-#
-# # Call a random one
-# send methods.sample  #=> 4
-# send methods.sample  #=> 1
-# send methods.sample  #=> 3
-
 
 end

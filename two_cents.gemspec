@@ -5,13 +5,13 @@ require 'two_cents/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "two_cents"
-  spec.version       = '0.0.0'
+  spec.version       = TwoCents::VERSION
   spec.authors       = ["Jenny Kats", "Jenny Lai"]
   spec.email         = ["jenny.kats@aol.com"]
 
-  spec.summary       = "Gives you a random daily fortune"
-  spec.description   = "Random Fortune"
-  spec.files         = ["lib/two_cents.rb"]
+  spec.summary       = "Allows you to google search from your terminal and gives you a random daily fortune"
+  spec.description   = "Random Fortune and Google Search in One"
+  # spec.files         = ["lib/two_cents.rb"]
   spec.homepage      = "http://rubygems.org/gems/two_cents"
   spec.license       = "MIT"
 
@@ -31,6 +31,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_dependency 'gold_mine'
-  spec.add_dependency 'to_do'
+  spec.add_dependency "thor"
+  spec.add_dependency "gold_mine"
 end
