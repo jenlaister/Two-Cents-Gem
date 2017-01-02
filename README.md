@@ -1,7 +1,5 @@
 # TwoCents
 
-
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -16,7 +14,7 @@ install it yourself as:
 
 ## Usage
 
-<!-- TODO: Write usage instructions here -->
+TwoCents is a multi-functional gem that allows you to conduct a Google search and gives you a random daily fortune complete with a cat ascii.
 
 ## Development
 

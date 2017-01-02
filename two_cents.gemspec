@@ -11,7 +11,6 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Allows you to google search from your terminal and gives you a random daily fortune"
   spec.description   = "Random Fortune and Google Search in One"
-  # spec.files         = ["lib/two_cents.rb"]
   spec.homepage      = "http://rubygems.org/gems/two_cents"
   spec.license       = "MIT"
 
