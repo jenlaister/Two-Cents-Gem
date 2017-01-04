@@ -1,18 +1,21 @@
 #!/usr/bin/env ruby
+require "thor"
+require "irb"
+require "gold_mine"
+require "pry"
 
 require "bundler/setup"
-require "two_cents"
+require "./lib/two_cents/two_cents"
+require "./lib/version"
+require "./lib/two_cents/cli"
+require "./lib/two_cents/cat"
 
-TwoCents::Google.start( ARGV )
+
+TwoCents::Cli.start( ARGV )
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
 
 # (If you use this, don't forget to add pry to your Gemfile!)
-require "thor"
 
 
-# require "pry"
 # Pry.start
-
-require "irb"
-IRB.start
