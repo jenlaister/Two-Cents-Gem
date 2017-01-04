@@ -19,12 +19,11 @@ module TwoCents
         Kernel.exec "open", OSX_PATH
       end
     end
+
+    desc "fortune", "returns a fortune"
+    def fortune
+      TwoCents.fortune
+    end
+
   end
-end
-
-
-
-desc "fortune", "returns a fortune"
-def fortune
-  TwoCents.fortune
 end
