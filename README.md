@@ -16,11 +16,23 @@ install it yourself as:
 
 TwoCents is a multi-functional gem that allows you to conduct a Google search and gives you a random daily fortune complete with a cat ascii.
 
+COMMANDS:
+
+$ two_cents search your_search_query
+
+Allows you to open Google with your search from your terminal with your defaulted browser.
+
+$ two_cents fortune
+
+Gives you a random fortune, ascii cat artwork and allows you to query Google from your terminal.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+
+* Note: We are not affiliated with Google. 
 
 ## Contributing
 
