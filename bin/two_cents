@@ -5,10 +5,10 @@ require "gold_mine"
 require "pry"
 
 require "bundler/setup"
-require "./lib/two_cents/two_cents"
-require "./lib/version"
-require "./lib/two_cents/cli"
-require "./lib/two_cents/cat"
+require_relative "../lib/two_cents/two_cents"
+require_relative "../lib/version"
+require_relative "../lib/two_cents/cli"
+require_relative "../lib/two_cents/cat"
 
 
 TwoCents::Cli.start( ARGV )
