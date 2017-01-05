@@ -28,8 +28,8 @@ module TwoCents
         puts "                            | | "
         puts "        |\                  | | "
         puts "      /, ~\                / /  "
-        puts "     X     `-.....-------./ /   "
-        puts "       ~-. ~  ~             |   "
+        puts "     *     `-.....-------./ /   "
+        puts "      `` ~-. ~  ~             | "
         puts "         \             /    |   "
         puts "          \  /_     ___\   /    "
         puts "           | /\ ~~~~~   \ |     "
@@ -39,20 +39,21 @@ module TwoCents
       end
 
       def self.cat_4
-        puts "      \`*-.                     "
-        puts "       )  _`-.                  "
-        puts "      .  : `. .                 "
-        puts "     : _   '  \                 "
-        puts "    ; *` _.   `*-._             "
-        puts "     `-.-'          `-.         "
-        puts "       ;       `       `.       "
-        puts "       :.       .        \      "
+        puts "        _                       "
+        puts "        \`*-.                   "
+        puts "        )  _`-.                 "
+        puts "       .  : `. .                "
+        puts "       : _   '  \               "
+        puts "       ; *` _.   `*-._          "
+        puts "       `-.-'          `-.       "
+        puts "         ;       `       `.     "
+        puts "         :.       .        \    "
         puts "         . \  .   :   .-'   .   "
         puts "         '  `+.;  ;  '      :   "
         puts "         :  '  |    ;       ;-. "
         puts "         ; '   : :`-:     _.`* ;"
         puts "       .*' /  .*' ; .*`- +'  `*'"
-        puts "     `*-*   `*-*  `*-*'         "
+        puts "      `*-*   `*-*  `*-*'        "
       end
 
       def self.cat_5
@@ -90,18 +91,18 @@ module TwoCents
       end
 
       def self.cat_7
-        puts "   |\___/|  "
-        puts "   )     (  "
-        puts "  =\     /= "
-        puts "    )===(   "
-        puts "   /     \  "
-        puts "   |     |  "
-        puts "  /       \ "
-        puts "  \       / "
-        puts "   \__  _/  "
-        puts "     ( (    "
-        puts "      ) )   "
-        puts "     (_(    "
+        puts  "                                      "
+        puts  "      ,-.       _,---._ __  / \       "
+        puts  "     /  )    .-'       `./ /   \      "
+        puts  "    (  (   ,'            `/    /|     "
+        puts  "       \  `-             \'\   / |    "
+        puts  "        `.              ,  \ \ /  |   "
+        puts  "         /`.          ,'-`----Y   |   "
+        puts  "        (            ;        |   '   "
+        puts  "        |  ,-.    ,-'         |  /    "
+        puts  "        |  | (   |            | /     "
+        puts  "        )  |  \  `.___________|/      "
+        puts  "        `--'   `--'                   "
       end
 
       def self.cat_8
@@ -124,7 +125,7 @@ module TwoCents
         puts "                         /`        \  "
         puts "                        |   d   b  |  "
         puts "          .-''``''=-..--\=    Y   /=  "
-        puts "        /`               `-.__ =. '   "
+        puts "        /`               `-.__ =.'    "
         puts " _     / /\                 /o        "
         puts "( \   / / |                 |         "
         puts " \ '-' /   >    /`""--.    /          "
@@ -137,12 +138,45 @@ module TwoCents
         puts "        ,  /=o=o=o=\ .--.           "
         puts "       _|\|=o=O=o=O=|    \          "
         puts "   __.'  a`\=o=o=o=(`\   /          "
-        puts "  '.  a 4/`|.-""'`\ \ ;'`)   .---.  "
+        puts "  '.  a  */`|.-""'`\ \ ;'`)   .---. "
         puts "    \   .'  /   .--'  |_.'   / .-._)"
         puts "      `)  _.'   /     /`-.__.' /    "
         puts "       `'-.____;     /'-.___.-'     "
         puts "           `''`                     "
       end
 
-    end
+      def self.cat_11
+        puts "                            _.---.         "
+        puts "                  |\---/|  / )cat |        "
+        puts "      ------------;     |-/ /|food|---     "
+        puts "                  )     (' / `---'         "
+        puts "      ===========(       ,'==========      "
+        puts "      ||   _     |      |                  "
+        puts "      || o/ )    |      | o                "
+        puts "      || ( (    /       ;                  "
+        puts "      ||  \ `._/       /                   "
+        puts "      ||   `._        /|                   "
+        puts "      ||      |\    _/||                   "
+        puts "    __||_____.' )  |__||____________       "
+        puts "     ________\  |  |_________________      "
+        puts "              \ \  `-.                     "
+        puts "               `-`---'                     "
+      end
+
+      def self.cat_12
+        puts "                      __      __,      "
+        puts "                      \,`~' '~` /      "
+        puts "      .-=-.           /    .  .\       "
+        puts "     / .-. \          {  =    Y}=      "
+        puts "    (_/   \ \          \      /        "
+        puts "           \ \        _/`'`'`b         "
+        puts "            \ `.__.-'`        \-._     "
+        puts "             |            '.__ `'-;_   "
+        puts "             |            _.' '''-.__) "
+        puts "              \    ;_..--'/     //  \  "
+        puts "              |   /  /   |     //    | "
+        puts "              \  \ \__)  \    //     / "
+        puts "               \__)       '. //    .'  "
+        puts "                             `'-'`     "
+      end
 end

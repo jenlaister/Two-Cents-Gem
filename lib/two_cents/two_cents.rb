@@ -20,13 +20,13 @@ module TwoCents
       elsif input == "search"
         TwoCents.search
       else
-        put "Invalid - please fortune or search"
+        print "Invalid - please use a command option: fortune or search"
       end
     end
 
 
     def self.fortune
-      i = rand(1..10)
+      i = rand(1..12)
       if i == 1
         puts Cat.cat_1
         TwoCents.cents
@@ -63,8 +63,16 @@ module TwoCents
         puts Cat.cat_9
         TwoCents.cents
         TwoCents.next
-      else i == 10
+      elsif i == 10
         puts Cat.cat_10
+        TwoCents.cents
+        TwoCents.next
+      elsif i == 11
+        puts Cat.cat_11
+        TwoCents.cents
+        TwoCents.next
+      else i == 12
+        puts Cat.cat_12
         TwoCents.cents
         TwoCents.next
       end

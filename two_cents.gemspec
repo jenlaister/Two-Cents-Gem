@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "two_cents"
-  spec.version       = "0.1.7"
+  spec.version       = "0.1.8"
   spec.authors       = ["Jenny Kats", "Jenny Lai"]
   spec.email         = ["jenny.kats@aol.com"]
 
@@ -30,5 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_dependency "thor", "~>0.19.1"
-  spec.add_dependency "gold_mine", "~>1.0.0"
+  spec.add_dependency "gold_mine", "~>1.0.0", ">= 1.0.0"
 end
