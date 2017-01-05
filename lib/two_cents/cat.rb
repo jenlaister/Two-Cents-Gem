@@ -179,4 +179,5 @@ module TwoCents
         puts "               \__)       '. //    .'  "
         puts "                             `'-'`     "
       end
+  end
 end
