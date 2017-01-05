@@ -11,7 +11,7 @@ module TwoCents
       input = STDIN.gets.strip.downcase.gsub(" ", "+")
       Cli.search(input)
     end
-    
+
     def self.next
       print "What would you like to do? "
       input = STDIN.gets.strip.downcase.gsub(" ", "+")
