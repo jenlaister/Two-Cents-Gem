@@ -6,11 +6,6 @@ module TwoCents
       puts db.random
     end
 
-    def self.search(input=nil)
-      print "What would you like to search? "
-      input = STDIN.gets.strip.downcase.gsub(" ", "+")
-      Cli.search(input)
-    end
 
     def self.next
       print "What would you like to do? "
@@ -22,6 +17,12 @@ module TwoCents
       else
         put "Invalid - please fortune or search"
       end
+    end
+    
+    def self.search(input=nil)
+      print "What would you like to search? "
+      input = STDIN.gets.strip.downcase.gsub(" ", "+")
+      Cli.search(input)
     end
 
     def self.fortune
